@@ -1,11 +1,13 @@
 import React from 'react'
 import "./Home.css"
 import Header from '../../components/Header/Header'
+import Exploremenu from '../../components/Exploremenu/Exploremenu'
 
 const Home = () => {
   return (
     <div>
-      <Header/>   
+      <Header/> 
+      <Exploremenu/>
         </div>
   )
 }
