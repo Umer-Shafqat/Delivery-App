@@ -14,11 +14,13 @@ const Navbar = () => {
         <li>Contact us</li>
     </ul>
     <div className="navbar-right">
-        <img src={assets.search_icon} alt="" />
+        <img src={assets.searching} alt="" />
         <div className="navbar-search-icon">
-            
-        </div>
-    </div>
+      <img src={assets.basket_icon} alt="" />
+      <div className="dot"></div>
+         </div>
+         <button>Sign in</button>
+       </div>
     </div>
   )
 }
