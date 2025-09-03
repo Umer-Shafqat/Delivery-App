@@ -6,7 +6,7 @@ import upload_area from './upload_area.png'
 import parcel_icon from './parcel_icon.png'
 import search_icon from './search_icon.png';
 import basket_icon from './basket_icon.png';
-import header_img from './header_img.png';
+import header_img from './header_img.png'
 
 export const assets ={
     logo,
