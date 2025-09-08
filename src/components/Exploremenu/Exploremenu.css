@@ -3,3 +3,8 @@
     flex-direction: column;
     gap: 20px;
 }
+ 
+.explore-menu h1{
+    color: #262626;
+    font-weight: 500;
+}
