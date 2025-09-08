@@ -71,4 +71,258 @@ export const menu_list = [
         menu_image : menu_8
     },
 ]
+
+export const food_list = [
+    {
+        _id:"1",
+        name : "Greek Salad",
+        image : food_1,
+        price: 15.99,
+        description: "A refreshing salad with tomatoes, cucumbers, olives, feta cheese, and a tangy vinaigrette.",
+        category: "salad"
+    },
+        {
+        _id:"2",
+        name : "Chicken Salad",
+        image : food_2,
+        price: 14.99,
+        description: "A classic Chicken salad with romaine lettuce, croutons, and Parmesan cheese.",
+        category: "salad"
+    },
+    {
+        _id:"3",
+        name : "Chicory Salad",
+        image : food_3,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    },
+    {
+        _id:"4",
+        name : "Greek Salad",
+        image : food_4,
+        price: 18.99,
+        description: "A refreshing salad with tomatoes, cucumbers, olives, feta cheese, and a tangy vinaigrette.",
+        category: "salad"
+    },
+        {
+        _id:"5",
+        name : "Chicken Salad",
+        image : food_5,
+        price: 14.99,
+        description: "A classic Chicken salad with romaine lettuce, croutons, and Parmesan cheese.",
+        category: "salad"
+    },
+    {
+        _id:"6",
+        name : "Chicory Salad",
+        image : food_6,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    },
+      {
+        _id:"7",
+        name : "Chicory Salad",
+        image : food_7,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    },
+       {
+        _id:"8",
+        name : "Chicory Salad",
+        image : food_8,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    },
+        {
+        _id:"9",
+        name : "Chicory Salad",
+        image : food_9,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    },
+         {
+        _id:"10",
+        name : "Chicory Salad",
+        image : food_10,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    },
+         {
+        _id:"11",
+        name : "Chicory Salad",
+        image : food_11,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    },
+         {
+        _id:"12",
+        name : "Chicory Salad",
+        image : food_12,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    },  
+      {
+        _id:"13",
+        name : "Chicory Salad",
+        image : food_13,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"14",
+        name : "Chicory Salad",
+        image : food_14,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"15",
+        name : "Chicory Salad",
+        image : food_15,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"16",
+        name : "Chicory Salad",
+        image : food_16,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    },  {
+        _id:"17",
+        name : "Chicory Salad",
+        image : food_17,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"18",
+        name : "Chicory Salad",
+        image : food_18,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"19",
+        name : "Chicory Salad",
+        image : food_19,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"20",
+        name : "Chicory Salad",
+        image : food_20,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    },  {
+        _id:"21",
+        name : "Chicory Salad",
+        image : food_21,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"22",
+        name : "Chicory Salad",
+        image : food_22,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"23",
+        name : "Chicory Salad",
+        image : food_23,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"24",
+        name : "Chicory Salad",
+        image : food_24,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    },  {
+        _id:"25",
+        name : "Chicory Salad",
+        image : food_25,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"26",
+        name : "Chicory Salad",
+        image : food_26,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"27",
+        name : "Chicory Salad",
+        image : food_27,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"28",
+        name : "Chicory Salad",
+        image : food_28,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    },  {
+        _id:"29",
+        name : "Chicory Salad",
+        image : food_29,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"30",
+        name : "Chicory Salad",
+        image : food_30,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    },  {
+        _id:"31",
+        name : "Chicory Salad",
+        image : food_31,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }, 
+         {
+        _id:"32",
+        name : "Chicory Salad",
+        image : food_32,
+        price: 21.23,
+        description: "Crisp red endive leaves paired with creamy blue cheese, crunchy walnuts, and fresh greens. A perfect balance of bitter, savory, and nutty flavors for a light yet elegant bite.",
+        category: "salad"
+    }]
+
 export const url = 'http://localhost:4000'
