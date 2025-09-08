@@ -1,11 +1,12 @@
 import React from 'react'
 import './FoodDisplay.css'
+import { StoreContext } from '../../context/Storecontext'
+const FoodDisplay = ({ category }) => {
 
-const FoodDisplay = () => {
+  const {food_list} = useContext(StoreContext)
 
-  const {food_list} = React.useContext(StoreContext);
   return (
-    <div>
+    <div className='food-display' id='food-display'> 
       {food_list.map(food => (
         <div key={food._id} className="food-item">
           <img src={food.image} alt={food.name} />
