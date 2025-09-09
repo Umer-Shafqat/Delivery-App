@@ -49,6 +49,11 @@ import parcel_icon from './parcel_icon.png'
 import search_icon from './search_icon.png';
 import basket_icon from './basket_icon.png';
 import header_img from './header_img.png'
+import add_icon_white from './add_icon_white.png'
+import add_icon_green from './add_icon_green.png'
+import remove_icon_red from './remove_icon_red.png'
+import rating_starts from './rating_starts.png'
+
 
 export const assets ={
     logo,
@@ -60,6 +65,10 @@ export const assets ={
     search_icon,
     basket_icon,
     header_img,
+    add_icon_white ,
+    add_icon_green,
+    remove_icon_red,
+    rating_starts,
       menu_1,
       menu_2,
       menu_3,
