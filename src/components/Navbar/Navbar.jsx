@@ -3,17 +3,17 @@ import './Navbar.css'
 import { assets } from '../../assets/assets'
 
 
-const Navbar = () => {
+const Navbar = ({setshowLogin}) => {
 
     const [menu,setmenu ]=useState("home");
   return (
     <div className='navbar'>
     <img  src={assets.logo} alt="" className="logo" />
     <ul className="navbar-menu">
-        <li onClick={()=>setmenu("home")} className={menu === "home" ? "active":""} >Home</li>
-        <li onClick={()=>setmenu("menu")} className={menu === "menu" ? "active":""}>Menu</li>
-        <li onClick={()=>setmenu("mobile-app")} className={menu === "mobile-app" ? "active":""}>Mobile-app</li>
-        <li onClick={()=>setmenu("contact us")} className={menu === "contact us" ? "active":""}>Contact us</li>
+        <a to="/" onClick={()=>setmenu("home")} className={menu === "home" ? "active":""} >Home</a>
+        <a href="#explore-menu" onClick={()=>setmenu("menu")} className={menu === "menu" ? "active":""}>Menu</a>
+        <a href="#app-download" onClick={()=>setmenu("mobile-app")} className={menu === "mobile-app" ? "active":""}>Mobile-app</a>
+        <a href="#footer" onClick={()=>setmenu("contact us")} className={menu === "contact us" ? "active":""}>Contact us</a>
     </ul>
     <div className="navbar-right">
         <img src={assets.search_icon} alt="searching" />
@@ -21,7 +21,7 @@ const Navbar = () => {
       <img src={assets.basket_icon} alt="Basket-icon" />
       <div className="dot"></div>
          </div>
-         <button>Sign in</button>
+         <button onClick={()=>setshowLogin(true)}>Sign in</button>
        </div>
     </div>
   )
