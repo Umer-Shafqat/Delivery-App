@@ -18,6 +18,7 @@
     gap:20px;
     color:#49557e;
     font-size:18px;
+    cursor: pointer;
 }
 
 .navbar-right{
@@ -46,7 +47,7 @@
     border-bottom: 2px solid #49557e;
 }
 
-.navbar li {
+.navbar link {
     cursor: pointer;
 }
 

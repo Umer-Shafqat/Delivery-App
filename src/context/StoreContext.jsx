@@ -1,4 +1,4 @@
-import { createContext, useEffect } from "react"
+import { createContext } from "react"
 import { useState } from "react"
 import { food_list } from "../assets/assets"; 
 
@@ -19,16 +19,23 @@ const removeFromCart = (itemId) => {
     setCartitems(prev => ({...prev, [itemId]: prev[itemId] - 1}))
   }
 
-
-useEffect(() => {
-  console.log(cartitems);
-}, [cartitems]);
+const getTotalCartAmount = () => {
+    let totalAmount = 0;
+    for(const item in cartitems){
+      if(cartitems[item] > 0){
+      let itemInfo = food_list.find((product) => product._id === item);
+        totalAmount += cartitems[item] * itemInfo.price;
+      }
+    }
+    return totalAmount;
+}
 
     const contextValue = {
       food_list,
       cartitems,
       addToCart,
-      removeFromCart
+      removeFromCart,
+      getTotalCartAmount
     }
     
     return (
