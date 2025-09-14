@@ -365,7 +365,7 @@ export const food_list = [
         _id:"31",
         name : "Kung Pao Chicken",
         image : food_31,
-        price: 33.00,
+        price: 35.00,
         description: "Spicy stir-fried chicken with peanuts, vegetables, and chili peppers.",
         category: "Chinese"
     }, 

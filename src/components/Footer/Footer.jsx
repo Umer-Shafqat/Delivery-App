@@ -10,11 +10,20 @@ const Footer = () => {
             <img src={assets.logo} alt="Logo" />
             <p>Delivering fresh food to your doorstep</p>
             <div className="footer-social-icons">
-                <img src={assets.facebook_icon} alt="Facebook" />
-                <img src={assets.linkedin_icon} alt="LinkedIn" />
-                <img src={assets.twitter_icon} alt="Twitter" />
-            </div>
-        </div>
+          <div className="icon facebook">
+            <div className="tooltip">Facebook</div>
+            <img src={assets.facebook_icon} alt="Facebook" />
+          </div>
+          <div className="icon linkedin">
+            <div className="tooltip">LinkedIn</div>
+            <img src={assets.linkedin_icon} alt="LinkedIn" />
+          </div>
+          <div className="icon twitter">
+            <div className="tooltip">Twitter</div>
+            <img src={assets.twitter_icon} alt="Twitter" />
+          </div>
+          </div>
+                </div>
         <div className="footer-content-center">
            <h2>Company</h2>
            <ul>
