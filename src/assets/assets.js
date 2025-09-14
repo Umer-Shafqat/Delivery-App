@@ -171,7 +171,7 @@ export const food_list = [
         _id:"6",
         name : "Chicken Tikka Rolls",
         image : food_6,
-        price: 21.23,
+        price: 19.03,
         description: "Soft tortillas filled with juicy chicken tikka, fresh onions, and herbs, wrapped to perfection. A flavorful grab-and-go twist on classic Indian street food.",
         category: "Rolls"
     },
@@ -179,7 +179,7 @@ export const food_list = [
         _id:"7",
         name : "Chicken Kathi Rolls",
         image : food_7,
-        price: 21.23,
+        price: 31.13,
         description: "A flaky paratha wrap filled with spiced chicken, sautéed veggies, and tangy sauces. A delicious, handheld street-food favorite.",
         category: "Rolls"
     },
@@ -187,7 +187,7 @@ export const food_list = [
         _id:"8",
         name : "calzone Rolls",
         image : food_8,
-        price: 21.23,
+        price: 37.23,
         description: "This is a calzone, an Italian folded pizza. It’s made with pizza dough stuffed with cheese, sauce, and fillings like meat or vegetables, then baked until golden and topped with sesame seeds.",
         category: "Rolls"
     },
@@ -195,7 +195,7 @@ export const food_list = [
         _id:"9",
         name : "raspberry ice cream",
         image : food_9,
-        price: 21.23,
+        price: 33.13,
         description: "This is raspberry ice cream. A creamy frozen dessert blended with fresh raspberries, giving it a smooth texture with bursts of fruity flavor.",
         category: "Dessert"
     },
@@ -203,7 +203,7 @@ export const food_list = [
         _id:"10",
         name : "Apple Mille-Feuille with Sorbet",
         image : food_10,
-        price: 21.23,
+        price: 24.23,
         description: "Layers of flaky pastry filled with creamy apple compote and served with a refreshing sorbet.",
         category: "Dessert"
     },
@@ -211,7 +211,7 @@ export const food_list = [
         _id:"11",
         name : "Strawberry Panna Cotta",
         image : food_11,
-        price: 21.23,
+        price: 12.00,
         description: "A creamy dessert made with fresh strawberries and a hint of vanilla, set in a delicate gelatin.",
         category: "Dessert"
     },
@@ -219,7 +219,7 @@ export const food_list = [
         _id:"12",
         name : "Vanilla Ice Cream in Sprinkle Bowl",
         image : food_12,
-        price: 21.23,
+        price: 14.37,
         description: "A classic vanilla ice cream served in a bowl with colorful sprinkles on top.",
         category: "Dessert"
     },
@@ -227,7 +227,7 @@ export const food_list = [
         _id:"13",
         name : "Classic Club Sandwich",
         image : food_13,
-        price: 21.23,
+        price: 45.23,
         description: "Triple-layered toasted bread stacked with turkey, bacon, lettuce, tomato, and mayo for a hearty bite.",
         category: "Sandwich"
     },
@@ -235,7 +235,7 @@ export const food_list = [
         _id:"14",
         name : "Caprese Sandwich",
         image : food_14,
-        price: 21.23,
+        price: 54.00,
         description: "Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze on toasted bread.",
         category: "Sandwich"
     },
@@ -243,7 +243,7 @@ export const food_list = [
         _id:"15",
         name : "Grilled Cheese Melt",
         image : food_15,
-        price: 21.23,
+        price: 34.22,
         description: "Toasted bread filled with a blend of melted cheeses, served with a side of marinara sauce for dipping.",
         category: "Sandwich"
     },
@@ -251,14 +251,14 @@ export const food_list = [
         _id:"16",
         name : "Chicken Pesto Panini",
         image : food_16,
-        price: 21.23,
+        price: 41.43,
         description: "Grilled chicken, basil pesto, and melted cheese pressed between ciabatta bread.",
         category: "Sandwich"
     },  {
         _id:"17",
         name : "Red Velvet Cake",
         image : food_17,
-        price: 21.23,
+        price: 34.44,
         description: "Soft crimson sponge with a hint of cocoa, paired with smooth cream cheese frosting.",
         category: "Cake"
     }, 
@@ -266,7 +266,7 @@ export const food_list = [
         _id:"18",
         name : "Lemon Drizzle Cake",
         image : food_18,
-        price: 21.23,
+        price: 56.23,
         description: "A light and zesty cake infused with fresh lemon juice and zest, topped with a sweet lemon glaze.",
         category: "Cake"
     }, 
@@ -274,7 +274,7 @@ export const food_list = [
         _id:"19",
         name : "Black Forest Cake",
         image : food_19,
-        price: 21.23,
+        price: 44.34,
         description: "Layers of chocolate sponge cake, cherries, and whipped cream come together in this classic dessert.",
         category: "Cake"
     }, 
@@ -282,14 +282,14 @@ export const food_list = [
         _id:"20",
         name : "Red Velvet Cake",
         image : food_20,
-        price: 21.23,
+        price: 54.43,
         description: "Soft crimson sponge with a hint of cocoa, paired with smooth cream cheese frosting.",
         category: "Cake"
     },  {
         _id:"21",
         name : "Vegetable Fried Rice",
         image : food_21,
-        price: 21.23,
+        price: 35.54,
         description: "A flavorful mix of stir-fried vegetables and rice, seasoned with soy sauce and sesame oil.",
         category: "Rice"
     }, 
@@ -297,7 +297,7 @@ export const food_list = [
         _id:"22",
         name : "Paella Valenciana",
         image : food_22,
-        price: 21.23,
+        price: 54.66,
         description: "A traditional Spanish rice dish made with saffron-infused rice, a variety of seafood, and vegetables.",
         category: "Rice"
     }, 
@@ -305,7 +305,7 @@ export const food_list = [
         _id:"23",
         name : "Mango Sticky Rice",
         image : food_23,
-        price: 21.23,
+        price: 11.24,
         description: "Sweet sticky rice topped with ripe mango slices and drizzled with coconut milk.",
         category: "Rice"
     }, 
@@ -313,14 +313,14 @@ export const food_list = [
         _id:"24",
         name : "Chicken Biryani",
         image : food_24,
-        price: 21.23,
+        price: 21.54,
         description: "Aromatic basmati rice cooked with tender chicken pieces, flavored with spices and herbs.",
         category: "Rice"
     },  {
         _id:"25",
         name : "Classic French Fries",
         image : food_25,
-        price: 21.23,
+        price: 25.23,
         description: "Crispy golden fries served with a side of tangy ketchup.",
         category: "Fries"
     }, 
@@ -328,7 +328,7 @@ export const food_list = [
         _id:"26",
         name : "Curly Fries",
         image : food_26,
-        price: 21.23,
+        price: 29.23,
         description: "Crispy curly fries seasoned to perfection, served with a side of zesty dipping sauce.",
         category: "Fries"
     }, 
@@ -336,14 +336,14 @@ export const food_list = [
         _id:"27",
         name : "Sweet Potato Fries",
         image : food_27,
-        price: 21.23,
+        price: 32.00,
         description: "Crispy sweet potato fries served with a side of tangy ketchup.",
         category: "Fries"
     },  {
         _id:"28",
         name : "Cheese Fries",
         image : food_28,
-        price: 21.23,
+        price: 12.00,
         description: "Crispy fries topped with melted cheese and served with a side of ranch dressing.",
         category: "Fries"
     },  {
@@ -358,14 +358,14 @@ export const food_list = [
         _id:"30",
         name : "Sweet and Sour Pork",
         image : food_30,
-        price: 21.23,
+        price: 39.01,
         description: "Tender pork pieces stir-fried with bell peppers and pineapple in a tangy sweet and sour sauce.",
         category: "Chinese"
     },  {
         _id:"31",
         name : "Kung Pao Chicken",
         image : food_31,
-        price: 21.23,
+        price: 33.00,
         description: "Spicy stir-fried chicken with peanuts, vegetables, and chili peppers.",
         category: "Chinese"
     }, 
