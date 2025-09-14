@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import './Navbar.css'
 import { assets } from '../../assets/assets'
-import { Link as ScrollLink } from 'react-scroll'   // 👈 for scrolling
+import { Link as ScrollLink } from 'react-scroll'  
 import { Link as RouterLink } from 'react-router-dom'
 import { StoreContext } from '../../context/StoreContext'
 
@@ -31,10 +31,12 @@ const Navbar = ({setshowLogin}) => {
 
     <div className="navbar-right">
         <img src={assets.search_icon} alt="searching" />
-        <div className="navbar-search-icon">
-      <RouterLink to="/cart"><img src={assets.basket_icon} alt="Basket-icon" /></RouterLink>
-      <div className={getTotalCartAmount()=== 0 ?"":"dot"}></div>
-         </div>
+     <div className="navbar-search-icon">
+  <RouterLink to="/cart">
+    <img src={assets.basket_icon} alt="Basket-icon" />
+  </RouterLink>
+  {getTotalCartAmount() > 0 && <div className="dot"></div>}
+</div>
          <button onClick={()=>setshowLogin(true)}>Sign in</button>
        </div>
     </div>

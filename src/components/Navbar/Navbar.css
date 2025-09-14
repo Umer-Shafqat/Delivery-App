@@ -51,19 +51,20 @@
     cursor: pointer;
 }
 
-.navbar-search-icon{
-    position: relative;
+.navbar-search-icon {
+  position: relative;
 }
 
-.navbar-search-icon .dot{
-    position: absolute;
-    min-height: 10px;
-    min-height: 10px;
-    background-color: tomato;
-    border-radius: 5px;
-    top: -8px;
-    right: -8px;
+.navbar-search-icon .dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: tomato;
+  border-radius: 50%;
+  top: -5px;
+  right: -5px;
 }
+
 
 @media (max-width: 1050px) {
     .navbar .logo{

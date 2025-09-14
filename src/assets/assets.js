@@ -197,7 +197,7 @@ export const food_list = [
         image : food_9,
         price: 33.13,
         description: "This is raspberry ice cream. A creamy frozen dessert blended with fresh raspberries, giving it a smooth texture with bursts of fruity flavor.",
-        category: "Dessert"
+        category: "Deserts"
     },
          {
         _id:"10",
@@ -205,7 +205,7 @@ export const food_list = [
         image : food_10,
         price: 24.23,
         description: "Layers of flaky pastry filled with creamy apple compote and served with a refreshing sorbet.",
-        category: "Dessert"
+        category: "Deserts"
     },
          {
         _id:"11",
@@ -213,7 +213,7 @@ export const food_list = [
         image : food_11,
         price: 12.00,
         description: "A creamy dessert made with fresh strawberries and a hint of vanilla, set in a delicate gelatin.",
-        category: "Dessert"
+        category: "Deserts"
     },
          {
         _id:"12",
@@ -221,7 +221,7 @@ export const food_list = [
         image : food_12,
         price: 14.37,
         description: "A classic vanilla ice cream served in a bowl with colorful sprinkles on top.",
-        category: "Dessert"
+        category: "Deserts"
     },
       {
         _id:"13",
