@@ -6,13 +6,13 @@
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr 1fr 0.5fr 0.5fr;
     align-items: center;
-    color: gray;
+    color: darkred;
     font-size: max(1vw,12px);
 }
 
 .cart-items-item{
     margin: 10px 0px;
-    color:black;
+    color:darkred;
 }
 
 .cart-items-item img{
@@ -20,7 +20,7 @@
 }
 .cart hr{
     height: 1px;
-    background-color:#e2e2e2 ;
+    background-color:darkred ;
     border: none;
 }
 
@@ -44,18 +44,19 @@
 .cart-total-details{
     display: flex;
     justify-content: space-between;
-    color:#555;
+    color:darkred;
     font-size: max(1vw,14px);
 }
 
 .cart-total hr{
     margin: 10px 0px ;
+    color: darkred;
 }
 
 .cart-total button{
     border: none;
-    color:white;
-    background-color:tomato ;
+    color:khaki;
+    background-color:darkred;
     width:max(15vw,200px);
     padding:12px 0px;
     border-radius: 4px;
@@ -67,7 +68,7 @@
 }
 
 .cart-promocode p{
-   color:#555 ;
+   color:darkred ;
 }
 
 .cart-promocode-input{
@@ -75,13 +76,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #eaeaea;
+  background-color: khaki;
   border-radius: 4px;
 }
 
 .cart-promocode-input input{
     background: transparent;
-    border: none;
+    border: darkred;
     outline: none;
     padding-left: 10px;
 }
@@ -89,9 +90,9 @@
 .cart-promocode-input button {
     width:max(10vw,150px);
     padding:12px 5px;
-    background-color: black;
+    background-color: darkred;
     border: none;
-    color:white;
+    color:khaki;
     border-radius: 4px;
 }
 
@@ -104,4 +105,12 @@
     }
 }
 
+.hr {
+  border: none;
+  height: 3px;
+  background-color: darkred;
+}
 
+h2{
+    color:darkred;
+}

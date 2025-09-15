@@ -12,7 +12,7 @@ const Navbar = ({setshowLogin}) => {
     const {getTotalCartAmount} = useContext(StoreContext);
   return (
     <div className='navbar'>
-    <RouterLink to="/"><img  src={assets.logo} alt="" className="logo" /></RouterLink>
+    <RouterLink to="/"><img  src={assets.logo1} alt="" className="logo" /></RouterLink>
       <ul className="navbar-menu">
         <ScrollLink to="home" smooth={true} duration={400} onClick={() => setmenu("home")} className={menu === "home" ? "active" : ""}>
           Home

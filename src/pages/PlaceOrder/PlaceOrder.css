@@ -21,9 +21,9 @@
     margin-bottom: 15px;
     width:100%;
     padding:10px;
-    border:1px solid #c5c5c5;
+    border:1px solid darkred;
     border-radius: 4px;
-    outline-color: tomato;
+    outline-color: darkred;
 }
 
 .place-order-left .multi-fields{
@@ -38,4 +38,12 @@
 
 .place-order .cart-total button{
     margin-top: 30px;
+}
+
+.title{
+    color:darkred;
+}
+
+input::placeholder {
+  color: darkred; 
 }

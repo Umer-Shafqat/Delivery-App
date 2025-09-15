@@ -7,13 +7,14 @@
   font-family: outfit;
   scroll-behavior: smooth;
 }
+
 body{
   min-height: 100vh;
-  background-color: white;
+  background-color: khaki;
 }
 a{
   text-decoration: none;
-  color:inherit;
+  color:darkred;
 }
 
 .app{

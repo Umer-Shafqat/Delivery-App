@@ -1,4 +1,4 @@
-import logo from './logo.png'
+import logo1 from './logo1.png'
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
@@ -48,7 +48,7 @@ import upload_area from './upload_area.png'
 import parcel_icon from './parcel_icon.png'
 import search_icon from './search_icon.png';
 import basket_icon from './basket_icon.png';
-import header_img from './header_img.png'
+import header1_img from './header1_img.png'
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
 import remove_icon_red from './remove_icon_red.png'
@@ -62,7 +62,7 @@ import cross_icon from './cross_icon.png'
 
 
 export const assets ={
-    logo,
+    logo1,
     add_icon,
     order_icon,
     profile_image,
@@ -70,7 +70,7 @@ export const assets ={
     parcel_icon,
     search_icon,
     basket_icon,
-    header_img,
+    header1_img,
     add_icon_white ,
     add_icon_green,
     remove_icon_red,
