@@ -25,9 +25,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color:khaki;
 }
 
+.login-popup-title h2 {
+    color: khaki;
+}
 .login-popup-title img{
     width: 16px;
     cursor: pointer;
