@@ -13,7 +13,6 @@ const App = () => {
 
   return (
     <>
-
 {showLogin?<LoginPopup setshowLogin={setshowLogin}/>:<></>}
 
     <div className='app'>
