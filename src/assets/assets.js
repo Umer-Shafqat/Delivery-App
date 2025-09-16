@@ -185,7 +185,7 @@ export const food_list = [
     },
        {
         _id:"8",
-        name : "calzone Rolls",
+        name : "Calzone Rolls",
         image : food_8,
         price: 37.23,
         description: "This is a calzone, an Italian folded pizza. It’s made with pizza dough stuffed with cheese, sauce, and fillings like meat or vegetables, then baked until golden and topped with sesame seeds.",
@@ -193,7 +193,7 @@ export const food_list = [
     },
         {
         _id:"9",
-        name : "raspberry ice cream",
+        name : "Raspberry ice cream",
         image : food_9,
         price: 33.13,
         description: "This is raspberry ice cream. A creamy frozen dessert blended with fresh raspberries, giving it a smooth texture with bursts of fruity flavor.",
